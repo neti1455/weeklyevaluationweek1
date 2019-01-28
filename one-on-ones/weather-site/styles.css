@@ -1,0 +1,28 @@
+
+div.center {
+text-align: center;
+color: white;
+font-family: sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  div.center { color: black;
+   }
+}
+
+div.temperature {
+font-size: 50px;
+border-style: solid;
+border-width: thin;
+border-color: black;
+width: 95px;
+margin: auto;
+padding: 25px;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+
+div.description{
+
+  margin-top: 20px;
+}
